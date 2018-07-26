@@ -37,12 +37,14 @@ while True:
 					stu["age"]=age
 				print("修改成功")
 				break
-	elif num ==4:
+#	elif num ==4:
+'''
 		print("1:删除名字")
 		print("2:删除年龄")
 		num == int(input("请您选择序号:"))
 		if num ==1:
 			list.pop(position)
+'''
 
 
 
@@ -55,10 +57,9 @@ while True:
 
 
 
+	
 
-
-
-
+'''
 	elif num == 5:
 		print("确定要退出吗?")
 		print("1:确认退出")
@@ -66,15 +67,13 @@ while True:
 		num = int(input("请选择序号:"))
 		if num ==1:
 			break
-		elif num ==2:
-			print("继续使用")
 			
 	elif num ==6:
+		pass
 
 
 
-
-
+'''
 
 
 

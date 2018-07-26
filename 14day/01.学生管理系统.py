@@ -23,7 +23,7 @@ while True:
 				print("学生姓名:%s\n学生年龄:%s\n学生手机号:%d\n"%(stu["name"],stu["age"],stu["phone"]))
 				break
 	elif num ==3:
-		name = input("请输入您要查找的名字:")
+		name = input("请输入您要修改的名字:")
 		for stu in list:
 			if stu["name"] ==name:
 				print("学生姓名:%s\n学生年龄:%s\n学生手机号:%d\n"%(stu["name"],stu["age"],stu["phone"]))
